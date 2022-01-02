@@ -1,3 +1,3 @@
 Personal Page
 
-[Link](WEIFZH.github.io)
+[Link](http://WEIFZH.github.io)

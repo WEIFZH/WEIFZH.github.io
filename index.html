@@ -22,7 +22,7 @@
 		  </name>
         </p>
 		<p>Currently, I am a Ph.D. student at  <a href="https://www.tamu.edu/index.html">Texas A&M University</a>, supervised by Prof. <a href="https://engineering.tamu.edu/electrical/profiles/qian-xiaoning.html">Xiaoning Qian</a>. 
-		My research interests include but are not limited to causal reasoning, transfer learning and data mining.
+		My research interests include but are not limited to probabilistic modeling, causality, and LLM reasoning.
 		</p>
 		Before that, I obtained the master's (supervised by Prof. <a href="https://scholar.google.co.uk/citations?hl=zh-CN&user=Ihj2Rw8AAAAJ">Fan Zhou</a> and Prof. <a href="https://scholar.google.com/citations?user=Mdr0XDkAAAAJ&hl=en">Ting Zhong</a>) and bachelor's degrees in <a href="https://sise.uestc.edu.cn/">School of Information and Software Engineering</a> from <a href="https://en.uestc.edu.cn/">University of Electronic Science and Technology of China (UESTC)</a> in 2023 and 2020, repectively. 
         </p>
@@ -50,9 +50,8 @@
         <td width="100%" valign="middle">
           <heading>News</heading>
           <p>
-		  <li> <strongsmall>[2023/08]</strongsmall> &nbsp;&nbsp;<smalll>I am employed as a graduate research assistant at Texas A&M University.</smalll><br/>
-		  <li> <strongsmall>[2022/12]</strongsmall> &nbsp;&nbsp;<smalll>1 paper is accepted by AAAI student abstract 2023.</smalll><br/>
-		  <li> <strongsmall>[2022/09]</strongsmall> &nbsp;&nbsp;<smalll>1 paper is accepted by NeurIPS 2022.</smalll><br/>
+		  <li> <strongsmall>[2026/04]</strongsmall> &nbsp;&nbsp;<smalll>GPan-LoRA is accepted by ICML 2026.</smalll><br/>
+		  <li> <strongsmall>[2025/09]</strongsmall> &nbsp;&nbsp;<smalll>C-LoRA is accepted by NeurIPS 2025.</smalll><br/>
 		
           </p>
         </td>
@@ -128,6 +127,82 @@
         </td>
       </tr>
       </table>
+
+<!-- C-LoRA--NeurIPS2025 -->
+<table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+  <tr>
+    <td width="15%">
+      <img src='project/C-LoRA/clora.png' width="200" height="150">
+    </td>
+    <td valign="top" width="75%">
+      <strong>C-LoRA: Contextual Low-Rank Adaptation for Uncertainty Estimation in Large Language Models</strong><br>
+      <a href="#">Amir Hossein Rahmati</a>,
+      <a href="#">Sanket Jantre</a>,
+      <strong>Weifeng Zhang</strong>,
+      <a href="#">Yucheng Wang</a>,
+      <a href="#">Byung-Jun Yoon</a>,
+      <a href="#">Nathan M. Urban</a>,
+      <a href="https://engineering.tamu.edu/electrical/profiles/xiaoning-qian.html">Xiaoning Qian</a><br>
+      <strong>NeurIPS 2025</strong>.
+      
+      <p></p>
+      <em>Area: Low-Rank Adaptation, Uncertainty Quantification, and Probabilistic Modeling.</em><br>
+      <p></p>
+      <p>
+        Low-Rank Adaptation (LoRA) enables parameter-efficient fine-tuning of large language models, but often yields
+        overconfident predictions in data-scarce few-shot settings. We propose C-LoRA, a contextual uncertainty-aware
+        LoRA framework that develops lightweight, data-dependent LoRA modules to dynamically adapt uncertainty estimates
+        for each input. By incorporating data-driven contexts into the parameter posteriors, C-LoRA improves calibration,
+        mitigates overfitting, and provides robust uncertainty estimates while preserving efficient fine-tuning.
+      </p>
+      <p>
+        <a href="https://openreview.net/forum?id=siPeAstQLq">OpenReview</a> /
+        <a href="https://arxiv.org/abs/2505.17773">arXiv</a> /
+        <a href="https://github.com/ahra99/c_lora">Code</a>
+      </p>
+    </td>
+  </tr>
+</table>
+
+
+<!-- GPan-LoRA--ICML2026 -->
+<table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+  <tr>
+    <td width="15%">
+      <img src='project/GPan-LoRA/gpan_lora.png' width="200" height="150">
+    </td>
+    <td valign="top" width="75%">
+      <strong>GPan-LoRA: Gaussian Process Amortized Networks for Bayesian Low-Rank Adaptation in Large Language Models</strong><br>
+      <strong>Weifeng Zhang</strong>,
+      <a href="#">Wenyuan Zhao</a>,
+      <a href="#">Amir Hossein Rahmati</a>,
+      <a href="#">Yucheng Wang</a>,
+      <a href="#">Zhiyuan Wang</a>,
+      <a href="#">Chao Tian</a>,
+      <a href="https://engineering.tamu.edu/electrical/profiles/xiaoning-qian.html">Xiaoning Qian</a><br>
+      <strong>ICML 2026</strong>.
+      
+      <p></p>
+      <em>Area: Bayesian Low-Rank Adaptation, Gaussian Processes, and Uncertainty Quantification.</em><br>
+      <p></p>
+      <p>
+        Principled uncertainty quantification is essential for trustworthy fine-tuning of large language models, especially
+        under distribution shift. We propose GPan-LoRA, a scalable Gaussian Process-based Bayesian LoRA framework that
+        integrates sparse Gaussian Process approximations with amortized variational inference. By preserving Bayesian
+        function-space prior and posterior semantics within the low-rank adaptation space, GPan-LoRA achieves calibrated
+        uncertainty estimates while maintaining parameter-efficient fine-tuning and competitive task performance.
+      </p>
+      <p>
+        <a href="#">OpenReview</a> /
+        <a href="#">PDF</a> /
+        <a href="#">Code</a>
+      </p>
+    </td>
+  </tr>
+</table>
+	  
+
+	  
 <!-- DyCVAE--AAAIsa2023 -->
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
     <tr onmouseout="aperture_stop()" onmouseover="aperture_start()" >
